@@ -3,7 +3,7 @@ import { AuthService } from '../services/auth.service';
 
 @Component({
     selector: 'fetchdata',
-    templateUrl: './fetchdata.component.html'
+    templateUrl: require('./fetchdata.component.html')
 })
 export class FetchDataComponent {
     public forecasts: WeatherForecast[];

@@ -5,7 +5,7 @@ const merge = require('webpack-merge');
 
 module.exports = (env) => {
     const extractCSS = new ExtractTextPlugin('vendor.css');
-    const isDevBuild = true; // !(env && env.prod);
+    const isDevBuild = !(env && env.prod);
     const sharedConfig = {
         stats: { modules: false },
         resolve: { extensions: [ '.js' ] },
