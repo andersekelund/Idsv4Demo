@@ -6,7 +6,7 @@ import { AuthService } from '../services/auth.service';
 
 @Component({
     selector: 'nav-menu',
-    templateUrl: require('./navmenu.component.html'),
+    template: require('./navmenu.component.html'),
     styleUrls: ['./navmenu.component.css']
 })
 export class NavMenuComponent implements OnInit, OnDestroy {

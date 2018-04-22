@@ -3,7 +3,7 @@ import { Location } from '@angular/common';
 
 @Component({
     selector: 'app-unauthorized',
-    templateUrl: require('unauthorized.component.html')
+    template: require('unauthorized.component.html')
 })
 export class UnauthorizedComponent implements OnInit {
 

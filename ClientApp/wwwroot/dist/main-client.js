@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "6b296e76d820c4a29ac9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "c5923ce5d45c7e9c815f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -4008,7 +4008,7 @@ var CounterComponent = (function () {
     CounterComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'counter',
-            templateUrl: __webpack_require__(36)
+            template: __webpack_require__(36)
         })
     ], CounterComponent);
     return CounterComponent;
@@ -4078,7 +4078,7 @@ var HomeComponent = (function () {
     HomeComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'home',
-            templateUrl: __webpack_require__(38)
+            template: __webpack_require__(38)
         })
     ], HomeComponent);
     return HomeComponent;
@@ -4130,7 +4130,7 @@ var NavMenuComponent = (function () {
     NavMenuComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'nav-menu',
-            templateUrl: __webpack_require__(39),
+            template: __webpack_require__(39),
             styles: [__webpack_require__(77)]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* AuthService */]])
@@ -4174,7 +4174,7 @@ var UnauthorizedComponent = (function () {
     UnauthorizedComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-unauthorized',
-            templateUrl: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"unauthorized.component.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+            template: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"unauthorized.component.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common__["Location"]])
     ], UnauthorizedComponent);
